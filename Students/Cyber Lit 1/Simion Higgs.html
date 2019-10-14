@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+  
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+
+  <title>Seneca Cyber</title>
+
+  <style> {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: 'Press Start 2P', cursive;
+
+  /* W3C */
+  background: linear-gradient(top, #ff3232 0%,#fcf528 16%,#28fc28 32%,#28fcf8 50%,#272ef9 66%,#ff28fb 82%,#ff3232 100%);
+
+  /* Firefox */
+  background: -moz-linear-gradient(top, #ff3232 0%, #fcf528 16%, #28fc28 32%, #28fcf8 50%, #272ef9 66%, #ff28fb 82%, #ff3232 100%);
+
+  /* Chrome,Safari4+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff3232), color-stop(16%,#fcf528), color-stop(32%,#28fc28), color-stop(50%,#28fcf8), color-stop(66%,#272ef9), color-stop(82%,#ff28fb), color-stop(100%,#ff3232));
+
+  /* Chrome10+,Safari5.1+ */
+  background: -webkit-linear-gradient(top, #ff3232 0%,#fcf528 16%,#28fc28 32%,#28fcf8 50%,#272ef9 66%,#ff28fb 82%,#ff3232 100%);
+
+  background-size: 1000%;
+  -moz-background-size: 1000%;
+  -webkit-background-size: 1000%; 
+
+  /* W3C */
+  animation-name: fun-time-awesome;
+  animation-duration: 40s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-play-state: running;
+
+  /* Firefox: */
+  -moz-animation-name: fun-time-awesome;
+  -moz-animation-duration: 40s;
+  -moz-animation-timing-function: linear;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-direction: alternate;
+  -moz-animation-play-state: running;
+
+  /* Chrome, Safari */
+  -webkit-animation-name: fun-time-awesome;
+  -webkit-animation-duration: 40s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  -webkit-animation-play-state: running;
+}
+
+/* W3C */
+@keyframes fun-time-awesome {
+  0% {background-position: left top;}
+  100% {background-position: left bottom;}
+}
+
+/* Firefox */
+@-moz-keyframes fun-time-awesome {
+  0% {background-position: left top;}
+  100% {background-position: left bottom;}
+}
+
+/* Chrome, Safari */
+@-webkit-keyframes fun-time-awesome {
+  0% {background-position: left top;}
+  100% {background-position: left bottom;}
+}
+
+
+h1 {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 50;
+  font-size: 40px;
+}
+h2 {
+  position: absolute;
+  top: 70px;
+  left: 10px;
+  z-index: 50;
+  font-size: 20px;
+}
+h2 span {
+  font-size: 10px;
+}
+h1, h2 {
+  color: #fff;
+  text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135;
+}
+div {
+  position: relative;
+  z-index: 20;
+}
+#crushin {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  z-index: 50;
+}
+audio {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  z-index: 50;
+  opacity: 0;
+}
+#counter {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  z-index: 50;
+}
+.face-source {
+  display: none;
+}
+#faces-container {
+  height: 100%;
+}
+
+
+/* mobile phone */
+@media screen and (max-device-width: 480px) {
+  body {
+    height: 120%;
+  }
+  h1 {
+    font-size: 25px;
+  }
+  h2 {
+    font-size: 12px;
+    top: 50px;
+  }
+  audio {
+    opacity: 1;
+    bottom: 30px;
+    top: 90px;
+    left: 10px;
+  }
+  #crushin {
+    display: none;
+  }
+  #counter {
+    top: 380px;
+  }
+}
+  <style>img {border:3px groove #0dffd3;}
+  </style>
+</head>
+  <body>
+     
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="https://mr-robert-dixon.github.io/">Seneca Cyber</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="https://mr-robert-dixon.github.io/">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Projects</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+
+
+  <div class="container">
+<div class="row">
+<div class="col-sm">
+<p>Fitz</p>
+       
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4INJ0W1l-HK09S1SpI4n0TH9NpRcO0zICEiqAuzM6U-J12a2b" width="180" height="250"/>
+ <hr>
+<p>Fitz is a hard working, funny, intelligent and musically talented youtuber who recently came over to twitch. He makes the entire stream funny and enjoyable to watch, which makes it very difficult to have a sluggish stream. Thats why he derserves to be on this list </p>
+</div>
+<div class="col-sm">
+<div class="row">
+<p>Shroud</p>
+<br />
+
+<img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/eb46f666181241.5b0d977d9e971.jpg" width="180" height="180"/>
+            
+</div>
+          
+<div class="row">
+<p>CourageJD</p>
+</div>
+<div class="column">
+
+<img src="data:image/jpeg;base64,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" width"180"height="180"/>
+</div>
+</div>  
+</div>
+<div class="col-sm">
+<p>Tofu</p>
+<hr>
+<img src="https://cdn.vox-cdn.com/thumbor/slJULFtV7njjNBfyMPxA40kBYfo=/0x0:1600x900/1200x800/filters:focal(904x317:1160x573)/cdn.vox-cdn.com/uploads/chorus_image/image/63868942/tfue.0.jpg" width="180" height="180"
+<hr>
+<p>Tofu also known as Turner. Pro Gamer, hard worker, </p>
+                
+</div>
+ </div>
+  </div>
+
+
+
+
+  </body>
+</html>
+
+
