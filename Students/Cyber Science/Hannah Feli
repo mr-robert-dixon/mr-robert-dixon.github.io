@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <title>Seneca Cyber</title>
+</head>
+  <body>
+     
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="https://mr-robert-dixon.github.io/">Seneca Cyber</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="https://mr-robert-dixon.github.io/">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Projects</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+
+
+    <div class="container">
+  <div class="row">
+    <div class="col-sm 3">
+     <ul class="list-group">
+  <li class="list-group-item">United States</li>
+  <li class="list-group-item">China</li>
+  <li class="list-group-item">Iran</li>
+  <li class="list-group-item">Mexico</li>
+</ul>  
+  <p style= "color:blue;">Contact us at </p>
+  <a href="mailto:hannah.feli@stu.jefferson.kyschools.us">my email!</a>
+    </div>
+    <div class="col-sm 6">
+      <h1 style= "text-align: center;text-decoration: underline;font-family: Verdana; font-weight: bold;"> Art Around The World</h1>
+      <p style ="color: red"> Around the world art is poorly looked upon. Sadly nobody sees the beauty in any art form whether it be Visual or Performing Arts. </p>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQq0y2CD3XWzvxMnqWO7LKpSbwtwTmYGnxv3VRWOU9gnZydFGb8" width="400" height="300"/>
+      <p> Art is just beautiful around the world, and I encourage you to go and create something beautiful.</p>
+      </div>
+    <div class="col-sm 3">
+      <img src="https://i.pinimg.com/originals/2e/96/6e/2e966e139f56a998a49d6b3f3897b071.png" width="200" height="200"/>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQWW4zh65d7v76xYWU2PTj3SDjrlLqbfhgMKO9rwXXq986h85Oh" width="200" height="200"/>
+      <img src="http://s1.favim.com/orig/151116/and-art-artwork-beautiful-Favim.com-3576411.jpg" width="200" height="200"/>
+
+      
+    </div>
+  </div>
+</div>
+
+
+
+
+  </body>
+</html>
+
+
